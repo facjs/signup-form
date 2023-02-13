@@ -96,7 +96,7 @@ form {
 
 .odin__logo {
     height: 150px;
-    background-color: hsla(0, 0%, 13%, 0.6);
+    background-color: hsla(0, 0%, 13%, 0.75);
     width: 100%;
     display: flex;
     justify-content: center;
