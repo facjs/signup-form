@@ -83,6 +83,11 @@ form {
     appearance: none;
 }
 
+fieldset {
+    border: none;
+    outline: none;
+}
+
 .content__wrapper {
     display: flex;
     height: 800px;
@@ -105,7 +110,7 @@ form {
     top: 50px;
     border-radius: 3px;
     border: 3px solid hsl(0, 0%, 100%);
-    box-shadow: 6px 7px 1px hsl(10, 100%, 77%);
+    box-shadow: 6px 7px 1px hsl(10, 66%, 72%);
 }
 
 .odin__image {
