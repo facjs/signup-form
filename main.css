@@ -83,7 +83,7 @@ form {
     appearance: none;
 }
 
-fieldset {
+form > fieldset {
     border: none;
     outline: none;
 }
