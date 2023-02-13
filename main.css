@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 html {
@@ -77,6 +80,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 2rem 4rem;
+    gap: 0.5rem;
 }
 
 div > label {
