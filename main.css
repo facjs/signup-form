@@ -96,13 +96,16 @@ form {
 
 .odin__logo {
     height: 150px;
-    background-color: hsla(0, 0%, 13%, 0.7);
-    width: 100%;
+    background-color: rgb(8, 8, 8);
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 50px;
+    border-radius: 3px;
+    border: 3px solid hsl(0, 0%, 100%);
+    box-shadow: 6px 7px 1px hsl(10, 100%, 77%);
 }
 
 .odin__image {
@@ -112,7 +115,7 @@ form {
 
 .odin__logo span {
     font-family: var(--secondary-font);
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
 }
 
