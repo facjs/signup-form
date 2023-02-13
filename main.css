@@ -14,16 +14,119 @@ html {
     box-sizing: inherit;
 }
 
+.logo {
+    width: 100%;
+    height: 300px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem 4rem;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.odin__image {
+    width: 150px;
+    height: 200px;
+}
+
 .aside__wrapper {
     height: 100vh;
-    width: 30vw;
+    width: 40vw;
     background-image: url(images/background.jpg);
+    padding-top: 10rem;
 }
 
 .main__content {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 70vw;
-    padding: 5rem 10rem;
+    width: 60vw;
+    padding: 5rem 5rem;
+}
+
+.main__content p {
+    font-size: 2.5rem;
+}
+
+.content__description p,
+.main__content p {
+    font-size: 2.5rem;
+}
+
+.form__content {
+    margin-top: 4rem;
+    padding: 0;
+}
+
+.first__form,
+.second__form,
+.third__form {
+    display: flex;
+    gap: 10rem;
+}
+
+.first__form div,
+.second__form div,
+.third__form div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+div > label {
+    text-transform: uppercase;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 72%);
+    border-radius: 5px;
+    transition: border 0.4s ease-in;
+    font-size: 20px;
+    text-indent: 8px;
+}
+
+input:focus {
+    border: 1px solid hsl(0, 0%, 53%);
+}
+
+.submit__content {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+button {
+    display: inline-block;
+    width: 200px;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(123, 8%, 55%);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: hsl(123, 8%, 40%);
+    color: #fff;
+}
+
+span {
+    padding-inline: 0.5rem;
+}
+
+span a {
+    text-decoration: none;
+    color: hsl(123, 8%, 55%);
 }
