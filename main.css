@@ -90,9 +90,9 @@ form > fieldset {
 
 .content__wrapper {
     display: flex;
-    height: 800px;
-    width: 1500px;
-    margin: 10rem auto;
+    height: 900px;
+    width: 80vw;
+    margin: 4rem auto;
     border: var(--content-border);
     border-radius: 5px;
     box-shadow: 5px 4px 1px 0 hsla(0, 0%, 13%, 0.4);
